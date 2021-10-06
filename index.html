@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>parcial</title>
+
+	<style type="text/css">
+		
+	.inetrfaz{
+	width:1320px;
+	height: 620px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: red;
+	border: solid;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-left: 0px;
+	font-size: 25px;
+	border-radius: 70px;
+	}
+	.tema1{
+		width:200px;
+	height: 100px;
+	position: absolute;
+	background: white;
+	border-radius: 50px;
+	top: 60px;
+	left: 70px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	padding-top: 20px;
+	font-size: 50px;
+	background-size: cover;
+	padding-left:  20px;
+}
+
+.texto1{
+width:500px;
+	height: 500px;
+	position: absolute;
+	background: white;
+	border-radius: 50px;
+	top: 60px;
+	left: 400px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	padding-top: 20px;
+	font-size: 50px;
+	background-size: cover;
+	padding-left:  20px;
+	display: none;
+	transition: all 5s;
+}
+
+.cerrar{
+	width:250px;
+	height: 100px;
+	position: absolute;
+	background: white;
+	border-radius: 50px;
+	top: 350px;
+	left: 70px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	padding-top: 20px;
+	font-size: 50px;
+	background-size: cover;
+	padding-left:  20px;
+	transition: all 4s;
+}
+.sonido{
+			position: absolute;
+			top: 100px;
+			left: 900px;
+			background: white;
+			font-size: 80px;
+			border-radius: 50px;
+			border: solid;
+		}
+		.tem{
+			width:200px;
+	height: 100px;
+	position: absolute;
+	background: white;
+	border-radius: 50px;
+	top: 500px;
+	left: 70px;
+	border: solid 2px black;
+	box-sizing: border-box;
+	padding-top: 20px;
+	font-size: 50px;
+	background-size: cover;
+	padding-left:  20px;
+		}
+	</style>
+
+</head>
+<body>
+<div class="inetrfaz"></div>
+<div class="tema1" onclick="document.getElementById('texto').style.display='block'">TEMA1</div>
+<div class="texto1" id="texto">
+<div class="cerrar"onclick="document.getElementById('texto').style.display='none'" >CERRAR</div>
+</div>
+<div class="tem" onclick="document.getElementById('texto').style.display='block'" >TEMA 2</div>
+<div class="sonido" >sonido</div>
+</body>
+</html>
